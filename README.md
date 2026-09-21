@@ -162,95 +162,94 @@ research progress, and follow-up questions.
 
 ```text
 
-&#x20;                        USER QUERY
+                         USER QUERY
 
-&#x20;                             │
+                              │
 
-&#x20;                             ▼
+                              ▼
 
-&#x20;             ┌──────────────────────────┐
+              ┌──────────────────────────┐
 
-&#x20;             │   VeriSearch Frontend    │
+              │   VeriSearch Frontend    │
 
-&#x20;             │ React + Vite + Tailwind  │
+              │ React + Vite + Tailwind  │
 
-&#x20;             └────────────┬─────────────┘
+              └────────────┬─────────────┘
 
-&#x20;                          │
+                           │
 
-&#x20;                          │ POST /api/search
+                           │ POST /api/search
 
-&#x20;                          ▼
+                           ▼
 
-&#x20;             ┌──────────────────────────┐
+              ┌──────────────────────────┐
 
-&#x20;             │    FastAPI Backend       │
+              │    FastAPI Backend       │
 
-&#x20;             │     VeriSearch API       │
+              │     VeriSearch API       │
 
-&#x20;             └────────────┬─────────────┘
+              └────────────┬─────────────┘
 
-&#x20;                          │
+                           │
 
-&#x20;            ┌─────────────┼──────────────┐
+             ┌─────────────┼──────────────┐
 
-&#x20;            │             │              │
+             │             │              │
 
-&#x20;            ▼             ▼              ▼
+             ▼             ▼              ▼
 
-&#x20;       Query Analysis   Web Search    Web Scraping
+        Query Analysis   Web Search    Web Scraping
 
-&#x20;         Gemini          Tavily       httpx +
+          Gemini          Tavily       httpx +
 
-&#x20;                                     BeautifulSoup
+                                      BeautifulSoup
 
-&#x20;            │             │              │
+             │             │              │
 
-&#x20;            └─────────────┼──────────────┘
+             └─────────────┼──────────────┘
 
-&#x20;                          │
+                           │
 
-&#x20;                          ▼
+                           ▼
 
-&#x20;                 Source Context
+                  Source Context
 
-&#x20;                          │
+                           │
 
-&#x20;                          ▼
+                           ▼
 
-&#x20;             ┌──────────────────────────┐
+              ┌──────────────────────────┐
 
-&#x20;             │       Gemini LLM        │
+              │       Gemini LLM        │
 
-&#x20;             │ Source-grounded answer  │
+              │ Source-grounded answer  │
 
-&#x20;             └────────────┬─────────────┘
+              └────────────┬─────────────┘
 
-&#x20;                          │
+                           │
 
-&#x20;                          ▼
+                           ▼
 
-&#x20;                JSON API Response
+                 JSON API Response
 
-&#x20;                          │
+                           │
 
-&#x20;                          ▼
+                           ▼
 
-&#x20;             ┌──────────────────────────┐
+              ┌──────────────────────────┐
 
-&#x20;             │      VeriSearch UI       │
+              │      VeriSearch UI       │
 
-&#x20;             │                          │
+              │                          │
 
-&#x20;             │ AI Answer                │
+              │ AI Answer                │
 
-&#x20;             │ Citations                │
+              │ Citations                │
 
-&#x20;             │ Source Cards             │
+              │ Source Cards             │
 
-&#x20;             │ Research Process         │
+              │ Research Process         │
 
-&#x20;             │ Follow-up Questions      │
+              │ Follow-up Questions      │
 
-&#x20;             └──────────────────────────┘
-
+              └──────────────────────────┘
